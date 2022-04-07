@@ -10,7 +10,7 @@ services:
 
   truffle:
     # build: .
-    image: roten_truffle
+    image: roten_truffle #local image
     container_name: "truffle"
     tty: true
     volumes: 
